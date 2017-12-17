@@ -1,5 +1,9 @@
-body {
+* {
+    border: 1px solid black;
+}
 
+body {
+ 
 }
 
 header {
@@ -40,4 +44,76 @@ header {
 .nav a {
     margin: 0 10px;
     color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    color: black;
+}
+
+.column.large {
+    width: 630px;
+    
+}
+
+.lead-image {
+    display: flex;
+    background-image: url(images/story-gathering.png);
+    width: 630px;
+    height: 300px;
+    /* background-repeat: no-repeat;*/
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.story-content1 {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/story-autumn.png);
+    height: 300px;
+    /* background-repeat: no-repeat;*/
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.story-content2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/story-camera.png);
+    height: 300px;
+    /* background-repeat: no-repeat;*/
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.story-content3 {
+    display: flex;
+    background-image: url(images/story-cat.png);
+    height: 300px;
+    /* background-repeat: no-repeat;*/
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+} 
+
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
 }
